@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import { IoSearchOutline } from "react-icons/io5";
-import { LuUserRound } from "react-icons/lu";
-import { PiHandbagBold } from "react-icons/pi";
+import { LuUserRound } from 'react-icons/lu';
+import { PiHandbagBold } from 'react-icons/pi';
 
 
 const Header = () => {
