@@ -88,14 +88,14 @@ const page = () => {
   ];
 
   return (
-    <div className="md:max-w-[1920px] w-full text-white">
-      <Common title="Our Chefs" subtitle="Meet Our Experts" />
+    <div className="md:max-w-[1920px] text-white">
+      <Common title="Our Chefs" subtitle="Meet Our Culinary Experts" />
       <div className="md:max-w-[1320px] px-8">
-        <div className="grid gap-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-items-center"> {/* Centering using justify-items-center */}
+        <div className="grid gap-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-items-center">
           {chefData.map((item, index) => (
-            <div
-              key={index}
-              className="w-full max-w-[312px] h-[446px] mx-auto p-4 bg-white shadow-lg rounded-lg"
+            <div 
+              key={index} 
+              className="w-full max-w-[312px] mx-auto p-4 bg-white shadow-lg rounded-lg" // Removed h-[446px] 
             >
               <Image src={item.img} alt={item.title} width={312} height={380} className="w-full" />
               <h2 className="text-center font-bold text-[20px]">{item.name}</h2>
@@ -107,6 +107,5 @@ const page = () => {
     </div>
   );
 };
-
 export default page;
 

@@ -26,9 +26,9 @@ const Header = () => {
                 <li className='text-[16px] font-bold text-white'><Link href="/contact">Contact</Link></li>
             </ul>
             <div className='flex gap-4'>
-            <IoSearchOutline size={24}/>
-            <LuUserRound size={24}/ >
-            <PiHandbagBold size={24}/>
+            <IoSearchOutline size={24} className='text-white'/>
+            <Link href="/signup"> <LuUserRound size={24} className='text-white'/ ></Link>
+            <PiHandbagBold size={24} className='text-white'/>
             </div>
         </div>
     </div>
