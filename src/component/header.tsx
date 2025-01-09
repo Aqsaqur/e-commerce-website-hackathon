@@ -1,5 +1,8 @@
+import { SheetClose, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet } from 'lucide-react';
 import Link from 'next/link'
 import React from 'react'
+import { GiHamburger, GiHamburgerMenu } from 'react-icons/gi';
 import { IoSearchOutline } from "react-icons/io5";
 import { LuUserRound } from 'react-icons/lu';
 import { PiHandbagBold } from 'react-icons/pi';
@@ -17,7 +20,7 @@ const Header = () => {
                 <li className='text-[16px] font-bold text-[#FF9F0D]'><Link href="/home">Home</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/menu">Menu</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/blog">Blog</Link></li>
-                <li className='text-[16px] font-bold text-white'><Link href="/pages">Pages</Link></li>
+                <li className='text-[16px] font-bold text-white'><Link href="/chef">Pages</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/about">About</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/shop">Shop</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/contact">Contact</Link></li>
