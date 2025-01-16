@@ -22,7 +22,7 @@ const Header = () => {
                 <li className='text-[16px] font-bold text-white'><Link href="/blog">Blog</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/chef">Pages</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/about">About</Link></li>
-                <li className='text-[16px] font-bold text-white'><Link href="/shop">Shop</Link></li>
+                <li className='text-[16px] font-bold text-white'><Link href="/faq">FAQ</Link></li>
                 <li className='text-[16px] font-bold text-white'><Link href="/contact">Contact</Link></li>
             </ul>
             <div className='flex gap-4'>

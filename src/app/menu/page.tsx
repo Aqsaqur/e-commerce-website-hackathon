@@ -3,7 +3,7 @@ import Common from '@/component/common'
 
 const page = () => {
   return (
-    <div>
+    <div className='text-white'>
       <Common title='Our Menu' subtitle='Menu'/>
     </div>
   )

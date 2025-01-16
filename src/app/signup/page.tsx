@@ -28,7 +28,7 @@ const page = () => {
         <input type="checkbox" className='bg-[#FF9F0D] text-white'/>
         <p className='text-black'>Remember Me</p>
          </div>
-         <button className='w-[360px] h-[44px] md:mx-8 mt-4 rounded-md bg-[#FF9F0D] text-white p-3 '>Sign Up</button>
+         <button className='md:max-w-[360px] h-[44px] w-full md:mx-8 mt-4 rounded-md bg-[#FF9F0D] text-white p-3 '>Sign Up</button>
          <p className='text-right mt-4 mx-8 text-black'>Forgot Password</p>
          <div className='flex p-4 gap-8 rounded-md mx-8 border-[1px] mt-4 text-black'>
            <FcGoogle size={24}/>
