@@ -1,26 +1,25 @@
 import Image from "next/image";
 
-export default function Faq() {
+export default function About() {
   return ( 
-// banner
-<main className="bg-white">
-      <div className="w-full  h-[250px] bg-black" >
-            <div className="relative ">
-              <Image
-                      src="/menu1.jpeg"
-                      alt="Post"
-                      width={1024} height={550}
-                      className=" w-full h-full bg-yellow-500" 
-                    />
-                    <h1 className="text-4xl font-bold text-white absolute top-[50%] left-[50%]  transform translate-y-[-50%] ">FAQ page</h1>
-                    <h3 className="  text-white absolute top-[65%] left-[52%]  transform translate-y-[-50%] ">Home :  <span className="text-yellow-500">Faq</span> </h3>
-      
-              
-            </div>
-            </div>
 
+        <main className="bg-white">
+          <div className="w-full  h-[250px] bg-black" >
+                <div className="relative ">
+                  <Image
+                          src="/menu1.jpeg"
+                          alt="Post"
+                          width={1024} height={550}
+                          className=" w-full h-full bg-yellow-500" 
+                        />
+                        <h1 className="text-4xl font-bold text-white absolute top-[50%] left-[50%]  transform translate-y-[-50%] ">About Us</h1>
+                        <h3 className="  text-white absolute top-[65%] left-[52%]  transform translate-y-[-50%] ">Home :  <span className="text-yellow-500">About</span> </h3>
+          
+                  
+                </div>
+                </div>
 
-            {/* faq table */}
+                        {/* faq table */}
 <div className="w-[1320px] h-[702px] bg-white mx-20 my-10" >
 
 <div className="w-[771px] h-[88px] bg-white mx-60 flex flex-col" > 
@@ -64,7 +63,8 @@ export default function Faq() {
    </div>
   
 </div>
-            </main>
+    
+                </main>
 
   );
 }

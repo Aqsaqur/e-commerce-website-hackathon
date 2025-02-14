@@ -1,46 +1,19 @@
-import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
+import { FaEnvelope, FaLock } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
-import Image from "next/image";
 
-export default function Signup() {
+export default function Signin() {
   return (
-
-    
-    <main className="bg-white">
-      <div className="w-full  h-[250px] bg-black" >
-            <div className="relative ">
-              <Image
-                      src="/menu1.jpeg"
-                      alt="Post"
-                      width={1024} height={550}
-                      className=" w-full h-full bg-yellow-500" 
-                    />
-                    <h1 className="text-4xl font-bold text-white absolute top-[50%] left-[48%]  transform translate-y-[-50%] ">Sign up page</h1>
-                    <h3 className="  text-white absolute top-[65%] left-[52%]  transform translate-y-[-50%] ">Home :  <span className="text-yellow-500">Sign up</span> </h3>
-      
-              
-            </div>
-            </div>
-
-      <div className=" flex justify-center items-center min-h-screen">
+    <main className="bg-white flex justify-center items-center min-h-screen">
       <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-sm">
         {/* Header */}
         <h1 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
-          Sign Up
+          Sign In
         </h1>
 
         {/* Form */}
         <form className="space-y-4">
-          {/* Name */}
-          <div className="flex items-center border border-gray-300 rounded-lg p-2">
-            <FaUser className="text-gray-500 mr-2" />
-            <input
-              type="text"
-              placeholder="Name"
-              className="w-full outline-none text-gray-700"
-            />
-          </div>
+        
 
           {/* Email */}
           <div className="flex items-center border border-gray-300 rounded-lg p-2">
@@ -105,8 +78,6 @@ export default function Signup() {
             <span className="text-sm text-gray-600">Sign up with Apple</span>
           </button>
         </div>
-      </div>
-
       </div>
     </main>
   );
